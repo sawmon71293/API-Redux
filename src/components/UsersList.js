@@ -4,34 +4,30 @@ import { fetchUsers } from "../features/usersSlice";
 
 const UsersList = () => {
   const dispatch = useDispatch();
-  const users = useSelector((state) => state.users.users);
-  const status = useSelector((state) => state.users.status);
-  const error = useSelector((state) => state.users.error);
+  const { users, isLoading, error } = useSelector((store) => store.user);
 
   useEffect(() => {
     dispatch(fetchUsers());
   }, [dispatch]);
 
-  if (status === "loading") {
+  if (isLoading) {
     return <div>Loading...</div>;
   }
 
-  if (status === "failed") {
+  if (error) {
     return <div>{error}</div>;
   }
 
   return (
     <div>
-      {users.map((user) => (
-        <div key={user.login.uuid}>
-          <img
-            src={user.picture.large}
-            alt={`${user.name.first} ${user.name.last}`}
-          />
-          <p>Name: {`${user.name.first} ${user.name.last}`}</p>
-          <p>Email: {user.email}</p>
-        </div>
-      ))}
+      {users &&
+        users.map((user) => (
+          <div key={user.uuid}>
+            <img src={user.picture} alt={`${user.name}`} />
+            <p>Name: {`${user.name}`}</p>
+            <p>Email: {user.email}</p>
+          </div>
+        ))}
     </div>
   );
 };
