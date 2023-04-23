@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Redux warmup <a name="about-project"></a>
+# 📖 API-Redux <a name="about-project"></a>
 
 **API-Redux* is a website to understand how to used redux and API.
 ## 🛠 Built With <a name="built-with"></a>
@@ -70,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/rAPI-Redux.git
+  git clone git@github.com:sawmon71293/API-Redux.git
 ```
 
 ### Install
