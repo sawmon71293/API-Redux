@@ -29,7 +29,7 @@
 
 # 📖 Redux warmup <a name="about-project"></a>
 
-**edux warmup** is a website to understand how to used redux and API.
+**API-Redux* is a website to understand how to used redux and API.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack
@@ -70,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/redux-warmup.git
+  git clone git@github.com:sawmon71293/rAPI-Redux.git
 ```
 
 ### Install
