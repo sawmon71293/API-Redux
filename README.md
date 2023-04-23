@@ -1,9 +1,5 @@
 <a name="readme-top"></a>
 
-# Preview
-
-![bookStore](BookStore.png)
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -31,14 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Redux warmup <a name="about-project"></a>
 
-**Book Store** is a website to understand how to parse a Zeplin design to create a UI.
-Functionalities -
-Display a list of books
-Add a book
-Remove a selected book
-
+**edux warmup** is a website to understand how to used redux and API.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack
@@ -54,10 +45,10 @@ Remove a selected book
 
 This is to practice React
 
-- **Styling**
+
 - **Redux**
 - **Fetch data from API**
-- **Tests**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/BookStore.git
+  git clone git@github.com:sawmon71293/redux-warmup.git
 ```
 
 ### Install
@@ -118,11 +109,6 @@ You can deploy this project using:
 - Twitter: [@Twitterhandle](https://twitter.com/sawmon34268255)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
 
-👤 **Kelvin Irungu**
-
-- GitHub: [@sawmon](https://github.com/Kel-nana)
-- Twitter: [@Twitterhandle](https://twitter.com/irungu69)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-irungu-838923249/)
 
 ## 🔭 Future Features <a name="features"></a>
 
