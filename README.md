@@ -29,7 +29,7 @@
 
 # 📖 API-Redux <a name="about-project"></a>
 
-**API-Redux* is a website to understand how to used redux and API.
+** API-Redux ** is a website to understand how to used redux and API.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack
